@@ -1,0 +1,28 @@
+class DataTypeAssignment3
+{
+	public static void main(String args[])
+	{
+	      int a=10,b=20;
+		  float x=40, y=50;
+		  
+		  System.out.println("int datatype values :  "+a +b);
+		  System.out.println(" Float datatype values:   "+x +y );
+		  System.out.println("Integer cannot hold the values are '''STRING VALUES'' & ''BOOLEAN VALUES '''   ");
+		  
+		  // int a="hello";   Strings Cannot be hold
+		  // int a="TRUE";    Boolean Cannot be hold
+		  
+	}
+}
+
+
+/* 
+
+Output:--
+
+int datatype values :  10 20
+ Float datatype values:   40.0 50.0
+Integer cannot hold the values are '''STRING VALUES'' & ''BOOLEAN VALUES '''
+
+
+*/
